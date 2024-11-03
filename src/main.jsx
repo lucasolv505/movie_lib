@@ -12,9 +12,9 @@ createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Routes>
         <Route element={<App/>}>
-          <Route path='/' element={<Home/>}/>
-          <Route path='/movie/:id' element={<Movie/>}/>
-          <Route path='search' element={<Search/>}></Route>
+          <Route path='/movies_lib_react' element={<Home/>}/>
+          <Route path='/movies_lib_react/movie/:id' element={<Movie/>}/>
+          <Route path='movies_lib_react/search' element={<Search/>}></Route>
         </Route>
       </Routes>
     </BrowserRouter>
