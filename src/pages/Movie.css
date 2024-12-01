@@ -63,3 +63,9 @@
 hr{
     margin-bottom: 2rem;
 }
+
+@media (max-width: 500px) {
+    .moviePage .movieCard img{
+        max-width: 100%;
+    }
+}

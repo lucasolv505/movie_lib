@@ -40,4 +40,32 @@
     color: #f7d354;
 }
 
+@media (max-width: 500px) {
+    #navbar{
+        padding: 5px;
+        flex-direction: column;
+    }
 
+    #navbar h2 a{
+        display: flex;
+        align-items: start;
+    }
+
+    #navbar form{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+    }
+
+    #navbar input{
+        padding: 5px;
+        border-radius: 4px;
+        border: none;
+    }
+
+    #navbar form button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
